@@ -1,0 +1,44 @@
+header{
+	background: url("img1.jpg");
+	background-repeat: no-repeat;
+	width: 80%;
+	height: 200px;
+	margin: auto;
+
+}
+.malilo{
+	text-align: center;
+	font-family: chiller;
+	font-size: 70px;
+	color: blue;
+	position: absolute;
+	top: 1%;
+	left: 40%;
+	text-shadow: -5px 10px 3px red;
+}
+.nav1{
+	background: #000;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 30px;
+	width: 80%;
+    margin: auto;
+    height: 50px;
+	
+
+}
+
+.nav1 a{
+	text-decoration: none;
+	color: white;
+	background: #000;
+	padding-top: 15px;
+	padding-left:9px;
+	font-size: 27px;
+	text-shadow: -2px 2px 2px yellow;
+
+}
+.nav1 a:hover{
+	color: yellow;
+}
